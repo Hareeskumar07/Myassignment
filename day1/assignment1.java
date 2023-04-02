@@ -6,13 +6,13 @@ public class assignment1 {
 		int b=1;
 		int c=0;
 		System.out.println(a);
-		for (int i=1;i<=11;i=i+1)
+		for (int i=0;i<=11;i=i+1)
 		{
 			
 			 	c=a+b;
 			 	a=b;
 			 	b=c;
-			 	System.out.println(c);
+			 	System.out.println(a);
 			 	
 		}
 	}
